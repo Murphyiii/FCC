@@ -1,4 +1,4 @@
-# 笔记
+# Note
 
 ## Target
 
@@ -8,7 +8,7 @@
 
 提供了students.sql数据库文件，产出了student_info.sh脚本文件。
 
-## Learn
+## Learning
 
 1. 取整函数
    - `CEIL(X)` 不小于参数的最小整数

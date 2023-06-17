@@ -1,3 +1,3 @@
-# [FCC](https://www.freecodecamp.org/learn)笔记
+# [FCC](https://www.freecodecamp.org/learn) Study Notes
 
 TODO

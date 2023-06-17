@@ -1,4 +1,4 @@
-# 笔记
+# Note
 
 ## Target
 
@@ -8,38 +8,39 @@
 
 提供了students.csv与course.csv两个表格，产出了insert_data.sh与students.sql两个文件。
 
-## Learn
+## Learning
 
 1. Bash脚本执行SQL语句。
 
-```sh
-# Define PSQL
-PSQL="psql -X --username=freecodecamp --dbname=students --no-align --tuples-only -c"
-# Query
-$($PSQL "<query_here>")
-# Get RETURN
-RETURN_VALUE=$($PSQL "<query_here>")
-# Print RETUEN
-echo "$($PSQL "<query_here>")"
-```
+   ```sh
+   # Define PSQL
+   PSQL="psql -X --username=freecodecamp --dbname=students 
+   --no-align --tuples-only -c"
+   # Query
+   $($PSQL "<query_here>")
+   # Get RETURN
+   RETURN_VALUE=$($PSQL "<query_here>")
+   # Print RETUEN
+   echo "$($PSQL "<query_here>")"
+   ```
 
 1. Bash脚本读取文件：
 
-```sh
-cat courses.csv | while read VALUE1 VALUE2
-do
-  <STATEMENTS>
-done
-```
+   ```sh
+   cat courses.csv | while read VALUE1 VALUE2
+   do
+     <STATEMENTS>
+   done
+   ```
 
 1. `IFS(Internal Field Separator)`This variable is used to determine word boundaries. It defaults to spaces, tabs, and new lines.
 
-```sh
-cat courses.csv | while IFS="," read VALUE1 VALUE2
-do
-  <STATEMENTS>
-done
-```
+   ```sh
+   cat courses.csv | while IFS="," read VALUE1 VALUE2
+   do
+     <STATEMENTS>
+   done
+   ```
 
 1. `[[ -z VALUE ]]`VALUE值为空，`help test`查看相关参数。
 
