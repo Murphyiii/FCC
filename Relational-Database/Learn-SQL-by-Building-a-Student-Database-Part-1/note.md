@@ -14,8 +14,8 @@
 
    ```sh
    # Define PSQL
-   PSQL="psql -X --username=freecodecamp --dbname=students 
-   --no-align --tuples-only -c"
+   PSQL="psql -X --username=freecodecamp --dbname=students --no-align --tuples-only -c"
+   # --tuples-only: Turn off printing of column names and result row count footers.
    # Query
    $($PSQL "<query_here>")
    # Get RETURN

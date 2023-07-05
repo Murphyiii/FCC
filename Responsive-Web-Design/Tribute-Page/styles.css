@@ -1,0 +1,52 @@
+h1,
+h2 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#title-description {
+  text-align: center;
+}
+
+html {
+  background-color: #eee;
+}
+
+#img-div {
+  background-color: white;
+}
+
+#image {
+  margin: 0 auto;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#tribute-info > ul {
+  width: 800px;
+  margin: 0 auto;
+}
+
+li {
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+#link {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: left;
+}
